@@ -1,0 +1,20 @@
+- Go to your "C" drive
+- create a new folder
+- "cd"> enter into your drive
+- Create a new file into ur folder
+- Edit ur file from here>> "notepad"
+- if want to see contant of file "cat"
+- use "clear" to clear from bash
+- use "git log" to see commit history
+
+
+- "git init"
+- "git status"
+- "git add ."
+- "git status"
+- "git commit -m "message"
+- "git remote"
+- "git remore add origin https://github.com/jeevan6422/TestGit.git"
+- "git remote"
+- "git remote -v" to see the origin details
+- "git push -u origin master"
