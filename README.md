@@ -29,4 +29,25 @@ public class Foo  {
    	  Integer result = 3 + 4;						//Bad: result is not checked.
    }
 }
+   public class MyClass {
+  	public static final integer SOME_CONSTANT = 0;     //Good: Constants are not checked.
+  	private String firstName;                          //Good.
+  	public String FIRSTNAME_OVERRIDE;                 //Bad: Not recommended.
+  	public String lastName { get; set; }               //Good.
+  	@AuraEnabled public String lastName               //Good. AuraEnabled is not checked
+  
+  	public String getFirstName() {
+    	return firstName;
+  	}
+  	
+ 	public void setFirstName(String firstName) {
+	 	this.firstName = firstName;
+  	}
+   }
    
+   //Good. This class is considered a 'Data Transport Object' and is not checked
+   public class MyClass {
+      public String field1;
+      public String field2;
+   }
+    
