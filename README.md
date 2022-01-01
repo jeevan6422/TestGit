@@ -14,3 +14,19 @@ new redme added{
 			"Creating the deployment iteration.",
 			"Feature Migration Deployment saved.",
 			"Feature Migration Deployment Iteration saved."
+@IsTest
+public class Foo  {
+   public static testmethod void testSomething() {
+   	  Integer result = 1 + 2;
+      System.assertEquals(3, result); 				//Good: result is checked with an assertion.
+   }
+}
+
+
+@IsTest
+public class Foo  {
+   public static testmethod void testSomething() {
+   	  Integer result = 3 + 4;						//Bad: result is not checked.
+   }
+}
+   
