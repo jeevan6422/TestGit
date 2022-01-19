@@ -43,11 +43,6 @@ public class Foo  {
  	public void setFirstName(String firstName) {
 	 	this.firstName = firstName;
   	}
-   }
-   
-   //Good. This class is considered a 'Data Transport Object' and is not checked
-   public class MyClass {
-      public String field1;
-      public String field2;
+
    }
     
