@@ -26,3 +26,4 @@ main(m1,s) char *s; {
             for(*s=a=f;a<e;) *s=(*s<<e)|main(h+a++,(char *)m1);
         }
 }
+added new files
