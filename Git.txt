@@ -27,3 +27,4 @@ main(m1,s) char *s; {
         }
 }
 added new files
+properties
